@@ -1,0 +1,61 @@
+.advantages__wrap {
+  position: relative;
+  width: 1017px;
+  margin: 0 auto;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 70px;
+    width: 271px;
+    height: 271px;
+    background: url("../img/Layer.jpg") no-repeat;
+    border: 1px solid #d6d7d7;
+    border-radius: 50%;
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 57px;
+    left:-14px;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to right, #d6d7d7, #f3f3f3);
+    border-radius: 50%;
+    z-index: -1;
+  }
+}
+
+.advantages__container {
+  margin-left: 361px;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.advantages__title {
+  padding: 80px 0 25px;
+  font-size: 31px;
+  line-height: 36px;
+}
+
+.advantages__text {
+  padding-right: 20px;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+.advantages__link {
+  align-self: flex-end;
+  font-size: 13px;
+  line-height: 36px;
+  font-style: italic;
+  text-decoration: none;
+  color: #494848;
+
+  &:hover {
+    color: #a292b3;
+  }
+}
